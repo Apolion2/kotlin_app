@@ -30,11 +30,15 @@
         android:textColor="#FFA500"
         android:textStyle="italic" />
 
-    <!-- Простір перед меню -->
-    <View
+    <!-- Логи змін ваги -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="#1A1A1A"
+        android:padding="8dp" />
 
     <!-- Нижнє меню навігації -->
     <LinearLayout
